@@ -35,4 +35,4 @@ colnames(reduced_table) <- table_labels
 
 # STEP 5
 melted_data <- dcast(melt_reduced_table,Activity + Subject ~ variable,mean)
-write.table(melted_data,file = "melted_table",row.names = FALSE)
+write.table(melted_data,file = "tidy_data.txt",row.names = FALSE)
