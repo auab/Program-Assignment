@@ -1,3 +1,5 @@
+library(reshape2)
+
 # Merge the train and test values x 
 train_table_x <- read.table(file = "train/X_train.txt")
 test_table_x <- read.table(file = "test/x_test.txt")
